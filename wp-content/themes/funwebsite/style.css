@@ -1,0 +1,63 @@
+/*
+
+Theme Name: Functional Webste
+Theme URL: http://www.webalpha.com
+Author: Sandee
+Author URL: http://www.webalpha.com
+Version: 3.2
+Description: This is a simple website
+
+*/
+
+.login-remember {
+	text-align: left;
+	padding-left: 15px;
+}
+
+
+.error {
+	background: #f24f4f;
+	padding: 4px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	margin: 0px 0px 5px 4px;
+	border-radius: 3px;
+	display: none;
+}
+
+.success {
+    background: green;
+    padding: 4px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin: 0px 0px 5px 4px;
+    border-radius: 3px;
+    display: none;
+}
+
+.submitButton {
+	padding: .8em 2em;
+    font-size: 1em;
+    text-transform: capitalize;
+    color: #fff;
+    outline: none;
+    border: 0;
+    margin: 1em 1.2em 0 0;
+    background: #e55e5e;
+    cursor: pointer;
+    display: block;
+    float: right;
+    border-radius: 2px;
+    font-family: 'Kotta One', serif;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.submitButton:hover {
+	background: #222;
+}
